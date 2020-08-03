@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Login</title>
+    <r
 </head>
 <body>
-<form>
-    <label for="pswd">Enter your password: </label>
+<form text-align: center;>
     <input type="password" id="pswd">
     <input type="button" value="Submit" onclick="checkPswd();" />
 </form>
@@ -14,7 +15,6 @@
     function checkPswd() {
         var confirmPassword = "flint13s";
         var password = document.getElementById("pswd").value;
-        console.log(password);
         if (password == confirmPassword) {
              window.location="site.html";
         }

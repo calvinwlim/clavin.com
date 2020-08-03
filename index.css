@@ -1,0 +1,31 @@
+body {
+  background-image: url('https://media1.tenor.com/images/b9ed64b56d8f29b4dbb61d0b0a5fa49f/tenor.gif?itemid=13418520');
+  background-size: cover;
+}
+
+input[type=password] {
+    width: 25%;
+    height: 15px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+
+  input[type=button] {
+      background-color: gainsboro;
+      border: none;
+      color: whitesmoke;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
