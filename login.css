@@ -1,0 +1,43 @@
+body {
+  background-image: url('https://cdn.dribbble.com/users/1100256/screenshots/7124464/media/94a5e074f80ae9466705cf4c833c3432.gif');
+  background-position: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: 'Space Mono';
+  color: black;
+  text-align: center;
+}
+
+input[type=password] {
+  float: left;
+  width: 20em;
+  height: 3em;
+  margin-left: 50em;
+  box-sizing: border-box;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+  color: whitesmoke;
+  }
+
+  .button {
+    width: 16em;
+    height: 4em;
+    background-color: #F5F3EC;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  .submit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -2em 0 0 -8em;
+    border-radius: 25px;
+  }
