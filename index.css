@@ -1,31 +1,35 @@
 body {
-  background-image: url('https://media1.tenor.com/images/b9ed64b56d8f29b4dbb61d0b0a5fa49f/tenor.gif?itemid=13418520');
-  background-size: cover;
+  background-image: url('https://cdn.dribbble.com/users/1100256/screenshots/7124464/media/94a5e074f80ae9466705cf4c833c3432.gif');
+  background-position: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: 'Space Mono';
+  color: black;
+  text-align: center;
 }
 
 input[type=password] {
-    width: 25%;
-    height: 15px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    text-align: center;
-    border: 2px solid gainsboro;
-    border-radius: 3px;
-    background-color: whitesmoke;
-    color: whitesmoke;
+  float: left;
+  width: 20em;
+  height: 3em;
+  margin-left: 35em;
+  box-sizing: border-box;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+  color: whitesmoke;
   }
 
   input[type=button] {
-      background-color: gainsboro;
-      border: none;
-      color: whitesmoke;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
+    width: 5em;
+    height: 1em;
+    margin-left: 1em;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
   }
