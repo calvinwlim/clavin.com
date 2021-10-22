@@ -37,6 +37,10 @@ p {
     text-align: center;
 }
 
+.bio {
+  padding: 100px;
+}
+
   .container {
 	height: 50%;
 	display: flex;
